@@ -12,6 +12,6 @@
 - change `DOpenCV_DIR` and `DTensorRT_DIR` to your OpenCV and TensorRT installation in `build.sh` and run `sh build.sh`
 
 ### Run
-(required export PyTorch model to ONNX model first, this repo only convert from ONNX to TensorRT)
+(requires exporting PyTorch model to ONNX model first, this repo only converts models from ONNX to TensorRT)
 - run `./bin/serialize` to build tensorRT engine from ONNX model and serialize it
 - run `./bin/inference` to run inference
